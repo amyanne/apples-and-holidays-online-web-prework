@@ -79,15 +79,18 @@ def all_supplies_in_holidays(holiday_hash)
   
   
   
-  # holiday_hash.each do |season, data|
-  #     puts clean_word(season)
-  #     data.each do |attribute, array_of_values|
-  #       puts "{clean_word(attribute)}: {array_of_values.join(", ")}"
-  #   end
-  # end
+  holiday_hash.each do |season, data|
+    puts clean_word(season)
+    data.each do |attribute, array_of_values|
+      puts "#{clean_word(attribute)}: #{array_of_values.join(", ")}"
+    end
+  end
 end
 
-def clean_word[]
+def clean_word(string)
+  string = string.ca
+  
+end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
