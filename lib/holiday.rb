@@ -89,7 +89,11 @@ end
 
 def clean_word(string)
   string = string.to_s
-  string = string.titleize
+  array = string.split(" ")
+  array.each do |word|
+  array = word.capitalize
+end
+string = array.join(" ")
   string = string.gsub("_", " ")
   string
   
