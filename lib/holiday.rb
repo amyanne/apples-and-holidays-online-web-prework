@@ -88,7 +88,8 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def clean_word(string)
-  string = string
+  string = string.titleize
+  string = 
   
 end
 
