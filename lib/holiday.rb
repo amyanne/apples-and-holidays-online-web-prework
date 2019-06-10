@@ -82,7 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, data|
     puts clean_word(season) + ":"
     data.each do |attribute, array_of_values|
-      puts "#{clean_word(attribute)}: #{array_of_values.join(", ")}"
+      puts "  #{clean_word(attribute)}: #{array_of_values.join(", ")}"
     end
   end
 end
