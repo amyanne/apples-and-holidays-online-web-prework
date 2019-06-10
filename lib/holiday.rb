@@ -89,7 +89,7 @@ end
 
 def clean_word(string)
   string = string.titleize
-  string = string
+  string = string.gsub()
   
 end
 
