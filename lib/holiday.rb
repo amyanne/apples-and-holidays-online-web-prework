@@ -90,10 +90,9 @@ end
 def clean_word(string)
   string = string.to_s
   array = string.split(" ")
-  array.each do |word|
-  new_array = word.capitalize
+  array.each_with_index do |word, index|
+  array[index] = word.capitalize 
 end
-binding.pry
  string = array.join(" ")
   string = string.gsub("_", " ")
   string
