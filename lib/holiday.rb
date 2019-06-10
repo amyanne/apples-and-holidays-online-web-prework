@@ -89,7 +89,8 @@ end
 
 def clean_word(string)
   string = string.titleize
-  string = string.gsub("_")
+  string = string.gsub("_", " ")
+  string
   
 end
 
