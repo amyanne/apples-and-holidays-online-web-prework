@@ -88,6 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def clean_word(string)
+  string = string.to_s
   string = string.capitalize
   string = string.gsub("_", " ")
   string
