@@ -89,7 +89,7 @@ end
 
 def clean_word(string)
   string = string.to_s
-  string = string.capitalize
+  string = string
   string = string.gsub("_", " ")
   string
   
