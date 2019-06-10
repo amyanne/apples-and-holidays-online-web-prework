@@ -91,7 +91,7 @@ def clean_word(string)
   string = string.to_s
   array = string.split(" ")
   array.each do |word|
-  array = word.capitalize
+  new_array = word.capitalize
 end
 binding.pry
  string = array.join(" ")
