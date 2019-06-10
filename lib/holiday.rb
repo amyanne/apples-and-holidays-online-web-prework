@@ -66,11 +66,6 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].values.flatten
-    # supply_array = Array.new
-    # holiday_hash.each do |season, data|
-    # data.each do |attribute, value|
-    #   supply_array = holiday_hash[:winter]
-    # end
 end
 
 def all_supplies_in_holidays(holiday_hash)
