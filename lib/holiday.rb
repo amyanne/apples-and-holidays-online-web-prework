@@ -93,7 +93,7 @@ def clean_word(string)
   array.each do |word|
   array = word.capitalize
 end
-string = array.join(" ")
+string = array.join
   string = string.gsub("_", " ")
   string
   
