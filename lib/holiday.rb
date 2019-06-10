@@ -89,6 +89,7 @@ end
 
 def clean_word(string)
   string = string.to_s
+  string = string.gsub("_", " ")
   array = string.split(" ")
   array.each_with_index do |word, index|
   array[index] = word.capitalize 
